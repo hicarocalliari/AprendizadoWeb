@@ -53,6 +53,44 @@
         </article>
     </section>
 
+    <section id="habilidades">
+        <h2>Habilidades e Tecnologias</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnologias</th>
+                    <th>Nível</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Iniciante</td>
+                    <td>Capaz de construir estruturas de páginas web semânticas e responsivas</td>
+                </tr>
+
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Experiência em estilização de páginas web com CSS</td>
+                </tr>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediário</td>
+                    <td>Experiência em programação de funcionalidades dinâmicas em páginas web</td>
+                </tr>
+
+
+
+            </tbody>
+        </table>
+
+    </section>
+
     <footer>
         <p>Direitos Reservados &copy; 2026 Hicaro Calliari Bottenberg</p>
         <section id="contatos">
@@ -71,11 +109,11 @@
                 <input type="email" id="email" name="email" required><br>
 
                 <label for="telefone">Telefone: </label>
-                <input type="tel" id="telefone" name="telefone" required><br>
+                <input type="tel" id="telefone" name="telefone"><br>
 
                 <label for="assunto">Assunto: </label>
-                <select name="assunto" id="assunto">
-                    <option value="null"></option>
+                <select name="assunto" id="assunto" required>
+                    <option value="" disabled selected hidden>Selecione uma opção...</option>
                     <option value="orcamento">Orçamento</option>
                     <option value="duvida">Dúvida</option>
                     <option value="outro">Outro</option>
